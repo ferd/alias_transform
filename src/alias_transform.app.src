@@ -1,0 +1,15 @@
+{application, alias_transform,
+ [{description, "A parse transform to introduce module aliasing into Erlang code"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    syntax_tools
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
