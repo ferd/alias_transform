@@ -46,6 +46,8 @@ and so on.
 It wouldn't necessarily be super hard to cover the direct literal cases,
 but it would fail when indirect assingment using variables takes place.
 
+Similarly, remote types of the form `M:T(...)` are currently not expanded.
+
 This is more of a proof of concept than a serious attempt.
 
 ## Development
